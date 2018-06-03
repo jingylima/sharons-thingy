@@ -47,6 +47,5 @@ while "(" in equationa:
         equationb.replace("(","")
         equationb.replace(")","")
         equationa.replace(" ","")
-        equationa = int(equationa)
         answer = equationa
         print(answer)
